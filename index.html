@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments-Web Wizards</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul><li>Web Wizards</li></ul>
+    </nav>
+    <div class="container">
+        <button onclick="document.getElementById('inpImg').click()">Upload Image</button>
+        <input type="file" name="inpImg" id="inpImg">
+            <span id="imgText">Insert image inside the canvas</span>
+            <canvas id="c"></canvas>
+            <img src="" id="image">
+        </div>
+    <script src="fabric.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
